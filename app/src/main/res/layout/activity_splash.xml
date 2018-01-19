@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@color/fondosplash"
+        android:id="@+id/mfondo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:layout_centerInParent="true"
+        android:text="@string/testchallenge"
+        android:textSize="@dimen/_22sdp"
+        android:id="@+id/textsplash"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:id="@+id/mBarcircle"
+        android:max="48"
+        android:progress="1"
+        android:progressDrawable="@drawable/circular_scr"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textsplash"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="@dimen/_77sdp"
+        android:layout_height="@dimen/_77sdp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_58sdp" />
+
+</RelativeLayout>

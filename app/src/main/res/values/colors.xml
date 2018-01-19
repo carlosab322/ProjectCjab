@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorNaranja">#F07929</color>
+    <color name="fondo">#F07929</color>
+    <color name="color_gris">#969696</color>
+    <color name="color_grisorden">#969696</color>
+    <color name="gris_claro">#ACAAA9</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="cafe">#231F20</color>
+    <color name="cafe_claro">#3E2723</color>
+    <color name="blanco_oscuro">#F2F2F2</color>
+    <color name="franja_amarilla">#f2b72a</color>
+    <color name="negro">#000000</color>
+    <color name="azul_morado">#5060BA</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="rojo">#FFD02121</color>
+    <color name="fondoregis">#E6E7E6</color>
+    <color name="blancohelp">#CCFFFFFF</color>
+    <color name="headernav">#434445</color>
+    <color name="editbusq">#E6E7E6</color>
+    <color name="grisrest">#D3D3D1</color>
+    <color name="texttotal">#599E6C</color>
+    <color name="gris_precio">#EDEFF0</color>
+    <color name="textomenu">#747474</color>
+    <color name="colorlinea">#7f7f7f</color>
+    <color name="linearest">#cbcbcb</color>
+    <color name="lineamen">#e0e0e0</color>
+    <color name="textdireccion">#adacac</color>
+    <color name="textorden">#ff5e33</color>
+    <color name="textdetorden">#4e4e4e</color>
+    <color name="textactiva">#ff7c35</color>
+    <color name="textentrega">#d65e34</color>
+    <color name="botonpedi">#989898</color>
+    <color name="textoordenlista">#585858</color>
+    <color name="textitemorden">#8d8d8d</color>
+    <color name="fondosplash">#2c3e52</color>
+</resources>

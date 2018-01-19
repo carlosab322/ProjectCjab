@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project CJAB</string>
+    <string name="testchallenge">Code Challenge</string>
+    <string name="resourceurl">http://applaudostudios.com/external/</string>
+    <string name="sufix">applaudo_homework.json</string>
+    <string name="apphometest">Applaudo\'s homework</string>
+    <string name="details">Detail</string>
+    <string name="nodata">No Information Available</string>
+    <string name="aceptar">OK</string>
+    <string name="errorconect">Error, no connection available</string>
+    <string name="errorconect1">There´s a problem with the transfer</string>
+    <string name="errorconect2">fail to connect to server</string>
+    <string name="title">Attention</string>
+    <string name="google_maps_key">AIzaSyA1B62gAO3gf1ztZpOXm0HlvJJaxIZdpsY</string>
+    <string name="send_to">Send to</string>
+</resources>

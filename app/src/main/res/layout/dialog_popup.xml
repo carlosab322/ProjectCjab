@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_20sdp">
+    <RelativeLayout
+        android:layout_width="@dimen/_255sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_30sdp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                card_view:cardCornerRadius="@dimen/_20sdp"
+                card_view:cardElevation="@dimen/_5sdp"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="right"
+                    >
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/icono_cerrar"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_gris"
+                        android:textSize="@dimen/_14sdp"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                    />
+
+                    <TextView
+                        android:id="@+id/textMensaje"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color_gris"
+                        android:textSize="@dimen/_12sdp"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                    />
+                        <Button
+                            android:id="@+id/btn_Popup"
+                            android:layout_width="@dimen/_220sdp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/aceptar"
+                            android:textAllCaps="false"
+                            android:textColor="@color/blanco"
+                            android:textSize="@dimen/_12sdp"
+                            android:background="@drawable/btn_round_gris"
+                            android:layout_marginTop="@dimen/_25sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/popup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/noconecta"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

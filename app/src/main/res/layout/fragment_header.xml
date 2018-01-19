@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeMainHeader"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_49sdp"
+    android:background="@color/gris_claro">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@drawable/home"
+        android:id="@+id/icon_home"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negro"
+        android:layout_toEndOf="@+id/icon_home"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="@string/apphometest"
+        />
+
+</RelativeLayout>
+
