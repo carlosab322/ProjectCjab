@@ -488,7 +488,7 @@ class MainActivity : AppCompatActivity(),EasyPermissions.PermissionCallbacks {
 
     private fun licencia() {
         ProgressBar.visibility = View.VISIBLE
-        disposable = wikiApiServe.log("mynorgaray@gmail.com","3.0.7","2")
+        disposable = wikiApiServe.log("my","3.1.0","2")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(
